@@ -1,2 +1,2 @@
 # CulturalDataScienceEXAM
-Exam project for https://kursuskatalog.au.dk/en/course/112668/Introduction-to-Cultural-Data-Science
+Exam project for Introduction to Cultural Data Science at Aarhus University fall semester 2022 
