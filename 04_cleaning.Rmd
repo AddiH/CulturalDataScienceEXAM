@@ -1,0 +1,27 @@
+---
+title: "04_cleaning"
+author: "Astrid Elmann Hansen"
+date: '2023-01-05'
+output: html_document
+---
+
+```{r include=FALSE}
+pacman::p_load(tidyverse)
+
+# loading files
+ans <- read_csv("data/kandidat_answers.csv")
+demo <- read_csv("data/kandidat_demo.csv")
+elected <- read_csv("data/kandidat_elected.csv")
+
+# cleaning columns
+ans <- ans %>% rename("ID" = "...1")
+demo <- demo %>% select(-...1)
+elected <- elected %>% select(-...1)
+
+# combining info
+demo$elected <- ifelse(demo$ID %in% elected$ID, T, F)
+demo <- demo %>% full_join(elected, by = "ID")
+
+rm(elected)
+```
+
