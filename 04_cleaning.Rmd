@@ -22,6 +22,51 @@ elected <- elected %>% select(-...1)
 demo$elected <- ifelse(demo$ID %in% elected$ID, T, F)
 demo <- demo %>% full_join(elected, by = "ID")
 
+# removing unused variables
 rm(elected)
+```
+
+## Participation and number of questions answered
+```{r}
+# df with numeric answers and ID
+q <- ans %>% 
+  select(ID, where(is.numeric))
+
+# column indicating participation in test
+q$participated <- ifelse(rowSums(is.na(q)) == 25, F, T) # if 25 NAs then FALSE else TRUE
+
+# number of questions answered
+q$no_answered <- 25 - rowSums(q[,2:26] == 0)
+```
+
+## Measuring answering type
+```{r}
+# no of answered questions that are "completely agree" or "completely disagree"
+q$sure <- rowSums(q[,2:26] == 1 | q[,2:26] == 5)
+
+# percentage of questions answered "completely agree" or "completely disagree"
+q$conviction <- round(q$sure/q$no_answered,2) * 100
+
+```
+
+```{r}
+# combining dfs
+q <- q %>% select(-(2:26), -sure)
+demo <- demo %>% full_join(q, by = "ID")
+rm(q)
+```
+# Number of notes to questions
+```{r}
+# df with notes and ID
+n <- ans %>% 
+  select(where(is.character))
+
+# number of notes
+n$no_notes <- 25 - rowSums(is.na(n))
+```
+
+# Average length of notes
+```{r}
+n$avg_note_len <- lapply(n[])
 ```
 
