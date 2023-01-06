@@ -55,6 +55,7 @@ q <- q %>% select(-(2:26), -sure)
 demo <- demo %>% full_join(q, by = "ID")
 rm(q)
 ```
+
 # Number of notes to questions
 ```{r}
 # df with notes and ID
@@ -67,6 +68,55 @@ n$no_notes <- 25 - rowSums(is.na(n))
 
 # Average length of notes
 ```{r}
-n$avg_note_len <- lapply(n[])
+# this is a bit ugly, but with only 25 columns it was quicker than finding a neater solution
+# the length of each note for each question for each participant is found and summed across participants, NAs replaced by 0
+n$total_note_len <- (replace(str_length(n$info_1) , is.na(n$info_1) , 0)) +
+                    (replace(str_length(n$info_2) , is.na(n$info_2) , 0)) +
+                    (replace(str_length(n$info_3) , is.na(n$info_3) , 0)) +
+                    (replace(str_length(n$info_4) , is.na(n$info_4) , 0)) +
+                    (replace(str_length(n$info_5) , is.na(n$info_5) , 0)) +
+                    (replace(str_length(n$info_6) , is.na(n$info_6) , 0)) +
+                    (replace(str_length(n$info_7) , is.na(n$info_7) , 0)) +
+                    (replace(str_length(n$info_8) , is.na(n$info_8) , 0)) +
+                    (replace(str_length(n$info_9) , is.na(n$info_9) , 0)) +
+                    (replace(str_length(n$info_10), is.na(n$info_10), 0)) +
+                    (replace(str_length(n$info_11), is.na(n$info_11), 0)) +
+                    (replace(str_length(n$info_12), is.na(n$info_12), 0)) +
+                    (replace(str_length(n$info_13), is.na(n$info_13), 0)) +
+                    (replace(str_length(n$info_14), is.na(n$info_14), 0)) +
+                    (replace(str_length(n$info_15), is.na(n$info_15), 0)) +
+                    (replace(str_length(n$info_16), is.na(n$info_16), 0)) +
+                    (replace(str_length(n$info_17), is.na(n$info_17), 0)) +
+                    (replace(str_length(n$info_18), is.na(n$info_18), 0)) +
+                    (replace(str_length(n$info_19), is.na(n$info_19), 0)) +
+                    (replace(str_length(n$info_20), is.na(n$info_20), 0)) +
+                    (replace(str_length(n$info_21), is.na(n$info_21), 0)) +
+                    (replace(str_length(n$info_22), is.na(n$info_22), 0)) +
+                    (replace(str_length(n$info_23), is.na(n$info_23), 0)) +
+                    (replace(str_length(n$info_24), is.na(n$info_24), 0)) +
+                    (replace(str_length(n$info_25), is.na(n$info_25), 0))
+
+# average note length
+n$avg_note_len <- round(n$total_note_len/n$no_notes,0)
 ```
+
+```{r}
+# combining dfs
+n <- n %>% select(ID, no_notes, avg_note_len)
+demo <- demo %>% full_join(n, by = "ID")
+rm(n)
+```
+
+## Save df
+```{r}
+demo %>% 
+write_csv("data/fv_22_kandidat_test.csv")
+```
+
+
+
+
+
+
+
 
