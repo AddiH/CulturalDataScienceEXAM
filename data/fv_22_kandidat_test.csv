@@ -48,7 +48,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 719-vivi-altenburg,Vivi,Altenburg,F,1962-03-15T00:00:00Z,Æ,Leder,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,52,25,229
 90-andreas-karlsen,Andreas,Karlsen,M,1996-01-01T00:00:00Z,C,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,72,21,255
 123-roya-moore,Roya,Moore,F,1967-01-01T00:00:00Z,C,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,44,22,199
-712-inger-stoejberg,Inger,Støjberg,F,1973-01-01T00:00:00Z,Æ,Ikke oplyst,Ikke oplyst,TRUE,47211,TRUE,25,56.00000000000001,6,2
+712-inger-stoejberg,Inger,Støjberg,F,1973-01-01T00:00:00Z,Æ,Ikke oplyst,Ikke oplyst,TRUE,47211,TRUE,25,56.00000000000001,0,NA
 11-nicklas-gjedsig,Nicklas,Gjedsig,M,1994-10-24T00:00:00Z,Å,Studerende,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,60,22,228
 889-birgit-gedionsen,Birgit,Gedionsen,F,1953-01-01T00:00:00Z,Ø,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,NA,NA,0,NA
 967-cecilie-holdt,Cecilie,Holdt,F,1986-08-18T00:00:00Z,F,Leder,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,64,1,110

@@ -1,0 +1,56 @@
+---
+title: "05_visualising"
+author: "Astrid Elmann Hansen"
+date: '2023-01-06'
+output: html_document
+---
+
+```{r}
+pacman::p_load(tidyverse)
+
+# loading files
+df <- read_csv("data/fv_22_kandidat_test.csv")
+ans <- read_csv("data/answers.csv")
+```
+
+# Investigating the candidates
+
+# Is a candidate elected based on...
+## ...whether they participated in the candidate test?
+```{r}
+df %>% ggplot(aes(x = participated, y = elected)) +
+  geom_jitter()
+```
+
+## ...a strong conviction when answering questions
+```{r}
+df %>% ggplot(aes(x = conviction, fill = elected)) +
+  geom_density(alpha = 0.5)
+```
+
+## ...the number of notes?
+```{r}
+df %>% ggplot(aes(x = no_notes, y = elected, color = elected)) +
+  geom_jitter()
+```
+
+## ...average length of notes?
+```{r}
+df %>% ggplot(aes(x = avg_note_len, y = elected, color = elected)) +
+  geom_jitter()
+```
+
+# What are the most dividing questions?
+
+```{r}
+i <- 1
+for (q in ans[2:26]){
+p <- ans %>% ggplot(aes(x = q)) + 
+  geom_histogram() +
+  ggtitle(paste0("Q no ", i))
+i = i+1
+print(p)
+}
+```
+
+
