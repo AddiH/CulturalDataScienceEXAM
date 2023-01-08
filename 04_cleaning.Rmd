@@ -40,7 +40,6 @@ q$participated <- ifelse(rowSums(is.na(q)) == 25, F, T) # if 25 NAs then FALSE e
 
 # number of questions answered
 q$no_answered <- 25 - rowSums(is.na(q[,2:26]))
-# perhaps change 0 answers to na?
 ```
 
 ## Measuring answering type
