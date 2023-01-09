@@ -11,9 +11,64 @@ pacman::p_load(tidyverse)
 # loading files
 df <- read_csv("data/fv_22_kandidat_test.csv")
 ans <- read_csv("data/answers.csv")
+
+df$education <- factor(df$education,
+                  levels = c("Ikke oplyst", 
+                             "Grundskole", 
+                             "10. klasse",
+                             "Gymnasial uddannelse",                             
+                             "Erhvervsuddannelse",
+                             "Seminaruddannelse",
+                             "Bachelor-/diplomuddannelse",
+                             "Kandidat-/masteruddannelse",
+                             "Ph.d.-uddannelse"
+                             ))
 ```
 
 # Investigating the candidates
+#Looking at education levels
+
+```{r}
+df %>% 
+  ggplot(aes(x = education, fill = elected)) + 
+  geom_bar() +
+  coord_flip()
+```
+
+```{r}
+df %>% filter(education == "Ikke oplyst" |
+              education == "Erhvervsuddannelse" |
+              #education == "Grundskole" |
+              #education == "10. klasse" |
+              education == "Gymnasial uddannelse" |
+              education == "Seminaruddannelse" |
+              #education == "Bachelor-/diplomuddannelse" |
+              education == "Kandidat-/masteruddannelse") %>%  #|
+              #education == "Ph.d.-uddannelse") %>% 
+  ggplot(aes(x = education, fill = elected)) + 
+  geom_bar() +
+  coord_flip() +
+  ggtitle("5 most common education levels among candidates")
+```
+
+
+```{r}
+unique(df$profession)
+
+df %>% ggplot(aes(x = profession)) +
+  geom_bar()
+
+
+df %>% 
+	group_by(profession) %>% 
+	summarise(count = n()) %>% 
+	ggplot(aes(x = reorder(profession,(-count)), y = count)) + 
+	geom_bar(stat = 'identity') +
+  coord_flip()
+
+
+```
+
 
 # Is a candidate elected based on...
 ## ...whether they participated in the candidate test?
@@ -25,7 +80,13 @@ df %>% ggplot(aes(x = participated, y = elected)) +
 ## ...a strong conviction when answering questions
 ```{r}
 df %>% ggplot(aes(x = conviction, fill = elected)) +
-  geom_density(alpha = 0.5)
+  geom_density(alpha = 0.5) +
+  theme_bw() +
+  ggtitle("Density plot of candidates conviction") +
+  labs(x = "Conviction %",
+       y = "Density",
+       fill = 'Elected') 
+  
 ```
 
 ## ...the number of notes?
