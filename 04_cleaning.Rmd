@@ -49,7 +49,7 @@ q$sure <- rowSums(q[,2:26] == 1 | q[,2:26] == 5)
 
 # percentage of questions answered "completely agree" or "completely disagree"
 q$conviction <- round(q$sure/q$no_answered,2) * 100
-q %>% write_csv("data/answers.csv")
+q %>% select(1:26) %>% write_csv("data/answers.csv")
 ```
 
 ```{r}
@@ -105,7 +105,7 @@ n$total_note_len <- (replace(str_length(n$info_1) , is.na(n$info_1) , 0)) +
 # average note length
 n$avg_note_len <- round(n$total_note_len/n$no_notes,0)
 
-n %>% write_csv("data/notes.csv")
+n %>% select(1:26) %>% write_csv("data/notes.csv")
 ```
 
 ```{r}
