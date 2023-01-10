@@ -2,16 +2,20 @@
 title: "05_visualising"
 author: "Astrid Elmann Hansen"
 date: '2023-01-06'
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r}
-pacman::p_load(tidyverse)
+pacman::p_load(tidyverse, ggridges)
 
 # loading files
 df <- read_csv("data/fv_22_kandidat_test.csv")
 ans <- read_csv("data/answers.csv")
 
+# Arranging education levels from lowest to highest
 df$education <- factor(df$education,
                   levels = c("Ikke oplyst", 
                              "Grundskole", 
@@ -23,10 +27,19 @@ df$education <- factor(df$education,
                              "Kandidat-/masteruddannelse",
                              "Ph.d.-uddannelse"
                              ))
+
+# arranging parties according to DRs scale
+df$party <- factor(df$party, 
+                   levels = c("Q", "Å", "Ø", "F", "B", "A", "M", "V", "C","O", "D", "I", "Æ", "K"))
+
+# string of the colours typically used to represent the (elected) parties.
+party_cols <- c("#25772b", "#dd6b16", "#d76698", "#5f206d", "#69171a", "#a475c8", "#1d3151", "#8fa61d", "#ffbd31", "#14696c", "#35a4b0", "#6581c7")
+
+
 ```
 
 # Investigating the candidates
-#Looking at education levels
+## Looking at education levels
 
 ```{r}
 df %>% 
@@ -51,22 +64,14 @@ df %>% filter(education == "Ikke oplyst" |
   ggtitle("5 most common education levels among candidates")
 ```
 
-
+## Looking at jobs
 ```{r}
-unique(df$profession)
-
-df %>% ggplot(aes(x = profession)) +
-  geom_bar()
-
-
 df %>% 
 	group_by(profession) %>% 
 	summarise(count = n()) %>% 
 	ggplot(aes(x = reorder(profession,(-count)), y = count)) + 
 	geom_bar(stat = 'identity') +
-  coord_flip()
-
-
+  coord_flip() 
 ```
 
 
@@ -74,41 +79,125 @@ df %>%
 ## ...whether they participated in the candidate test?
 ```{r}
 df %>% ggplot(aes(x = participated, y = elected)) +
-  geom_jitter()
+  geom_jitter() # who are the three people?
 ```
 
 ## ...a strong conviction when answering questions
 ```{r}
-df %>% ggplot(aes(x = conviction, fill = elected)) +
+df %>% 
+  ggplot(aes(x = conviction, fill = elected)) +
   geom_density(alpha = 0.5) +
   theme_bw() +
   ggtitle("Density plot of candidates conviction") +
   labs(x = "Conviction %",
-       y = "Density",
-       fill = 'Elected') 
+       y = NULL,
+       fill = 'Elected') +
+  scale_fill_manual(values=c("#999999", "#03ac16"))+
+  theme(axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        legend.position = c(0.88, 0.8))
   
+ggsave("plots/candidate_convitction.pdf", width=4, height=3, dpi=200)
 ```
+### is this difference significant?
+```{r}
+elected <- df %>% filter(elected == T)
+not_elected <- df %>% filter(elected == F)
+t.test(elected$conviction, not_elected$conviction)
+```
+> It is significant :)
+
 
 ## ...the number of notes?
 ```{r}
-df %>% ggplot(aes(x = no_notes, y = elected, color = elected)) +
-  geom_jitter()
+df %>% 
+  filter(participated == T) %>% 
+  ggplot(aes(x = no_notes, fill = elected)) +
+  geom_histogram(bins = 25) +
+  theme_bw() +
+  ggtitle("Number of notes from all candidates") +
+  labs(x = "No of notes",
+       y = "Count",
+       fill = "Elected") +
+  #theme(legend.position="none")+
+  scale_fill_manual(values=c("#999999", "#03ac16")) +
+  scale_x_continuous(breaks = seq(0,25, by = 1))
+
+ggsave("plots/note_hist.pdf", width=8, height=5, dpi=200)
 ```
 
-## ...average length of notes?
+# Do candidates within a party have smiliar levels of conviction?
+
 ```{r}
-df %>% ggplot(aes(x = avg_note_len, y = elected, color = elected)) +
-  geom_jitter()
+df %>% 
+  filter( party != "Q" & party != "K") %>% 
+  ggplot(aes(x = conviction, y = party, fill = party)) +
+  geom_density_ridges(scale = 3, alpha = 0.8, rel_min_height = 0.01) +
+  theme_bw() +
+  ggtitle("Density plot of parties conviction") +
+  labs(x = "Conviction %",
+       y=NULL,
+       fill = 'Party') +
+  theme (legend.position="none", 
+         axis.text.y = element_text(size=15, face="bold", color = "black"))+
+  xlim(0,100) +
+  scale_fill_manual(values = party_cols)
+  
+ggsave("plots/party_convitction.pdf", width=5, height=8, dpi=200)
 ```
 
-# What are the most dividing questions?
+```{r}
+df %>% 
+  filter( party != "Q" & party != "K" & party != "D") %>% 
+  filter(elected == T) %>% 
+  ggplot(aes(x = conviction, fill = party)) +
+  geom_area(stat = "bin") +
+  theme_bw() +
+  ggtitle("Histogram of elected candidates' conviction") +
+  labs(x = "Conviction %",
+       y=NULL,
+       fill = 'Party') +
+  theme (legend.position="none", 
+         axis.text.y = element_text(size=15, face="bold", color = "black"))+
+  xlim(0,100) +
+  scale_fill_manual(values = party_cols) 
+  
+#ggsave("plots/elected_convitction.pdf", width=5, height=8, dpi=200)
+```
+
+# Is there a connection between amount and length of notes?
+```{r}
+df %>% 
+  filter(participated == T) %>% 
+  ggplot(aes(y = avg_note_len, x = no_notes, color = elected, size = elected)) +
+  geom_point()+
+  theme_bw() +
+  ggtitle("Average length of candidates notes") +
+  labs(y = "Characters in notes",
+       x = "Number of notes",
+       size = 'Elected',
+       color = "Elected") +
+  scale_color_manual(values=c("#999999", "#03ac16")) +
+  scale_size_manual(values=c(2,4)) +
+  annotate("text", x=5, y=0, label= "114 candidates with 0 notes") 
+
+ggsave("plots/notes.pdf", width=8, height=5, dpi=200)
+
+# find amount of candidates with 0 notes
+df %>% 
+  filter(participated == T & no_notes == 0) %>% 
+  count()
+```
+
+
+# What are the most and least dividing questions?
 
 ```{r}
 i <- 1
 for (q in ans[2:26]){
 p <- ans %>% ggplot(aes(x = q)) + 
   geom_histogram() +
-  ggtitle(paste0("Q no ", i))
+  ggtitle(paste0("Q no ", i)) 
 i = i+1
 print(p)
 }

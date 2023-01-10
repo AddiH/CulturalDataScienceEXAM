@@ -26,6 +26,7 @@ demo <- demo %>% full_join(elected, by = "ID")
 rm(elected)
 ```
 
+
 ## Participation and number of questions answered
 ```{r}
 # df with numeric answers and ID
@@ -104,7 +105,9 @@ n$total_note_len <- (replace(str_length(n$info_1) , is.na(n$info_1) , 0)) +
 
 # average note length
 n$avg_note_len <- round(n$total_note_len/n$no_notes,0)
+n$avg_note_len <- ifelse(is.na(n$avg_note_len), 0, n$avg_note_len)
 
+# saving file
 n %>% select(1:26) %>% write_csv("data/notes.csv")
 ```
 
