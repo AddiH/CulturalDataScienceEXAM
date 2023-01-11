@@ -3,9 +3,7 @@ message: "If you use this software or data, please cite it as below."
 authors:
   - family-names: Hansen
     given-names: Astrid Elmann
-    orcid: -
 title: "2022 candidate-test in Denmark"
 version: 1.0.0
-doi: -
 date-released: 12 jan 2023
 url: "https://github.com/AddiH/CulturalDataScienceEXAM"
