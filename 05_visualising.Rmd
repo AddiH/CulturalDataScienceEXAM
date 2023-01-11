@@ -35,7 +35,8 @@ df$party <- factor(df$party,
 # string of the colours typically used to represent the (elected) parties.
 party_cols <- c("#25772b", "#dd6b16", "#d76698", "#5f206d", "#69171a", "#a475c8", "#1d3151", "#8fa61d", "#ffbd31", "#14696c", "#35a4b0", "#6581c7")
 
-
+# counting how many candidates participated
+df %>% group_by(participated) %>% summarise(n = n())
 ```
 
 # Investigating the candidates
@@ -172,8 +173,8 @@ df %>%
   ggplot(aes(y = avg_note_len, x = no_notes, color = elected, size = elected)) +
   geom_point()+
   theme_bw() +
-  ggtitle("Average length of candidates notes") +
-  labs(y = "Characters in notes",
+  ggtitle("Candidates notes and their election status") +
+  labs(y = "Average characters in notes",
        x = "Number of notes",
        size = 'Elected',
        color = "Elected") +
