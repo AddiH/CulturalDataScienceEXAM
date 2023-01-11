@@ -33,20 +33,20 @@ rm(elected)
 q <- ans %>% 
   select(ID, where(is.numeric))
 
-# Change 0 to NA ()skipped questions
+# change 0 to NA (skipped questions)
 q[q == 0] <- NA
 
 # column indicating participation in test
 q$participated <- ifelse(rowSums(is.na(q)) == 25, F, T) # if 25 NAs then FALSE else TRUE
 
 # number of questions answered
-q$no_answered <- 25 - rowSums(is.na(q[,2:26]))
+q$no_answered <- 25 - rowSums(is.na(q[,2:26])) # 25 - rows with NA
 ```
 
 ## Measuring answering type
 ```{r}
 # no of answered questions that are "completely agree" or "completely disagree"
-q$sure <- rowSums(q[,2:26] == 1 | q[,2:26] == 5)
+q$sure <- rowSums(q[,2:26] == 1 | q[,2:26] == 5, na.rm = TRUE) # remove NA's
 
 # percentage of questions answered "completely agree" or "completely disagree"
 q$conviction <- round(q$sure/q$no_answered,2) * 100

@@ -13,7 +13,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 86-martin-wood-pedersen,Martin Wood,Pedersen,M,1970-03-17T00:00:00Z,C,Leder,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,28.000000000000004,0,0
 850-david-roenne,David,Rønne,M,1970-11-26T00:00:00Z,Ø,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,80,6,171
 104-anders-krojgaard-lund,Anders Krojgaard,Lund,M,1990-04-22T00:00:00Z,C,Byråds- eller regionsrådsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,80,25,163
-284-anne-hegelund,Anne,Hegelund,F,1989-01-26T00:00:00Z,Ø,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,6,NA,6,200
+284-anne-hegelund,Anne,Hegelund,F,1989-01-26T00:00:00Z,Ø,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,6,100,6,200
 883-malene-ingwersen,Malene,Ingwersen,F,1975-10-24T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Seminaruddannelse,FALSE,NA,TRUE,25,76,21,209
 635-frank-soerensen,Frank,Sørensen,M,1963-12-25T00:00:00Z,O,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,80,20,92
 853-mathilde-vinther,Mathilde,Vinther,F,1994-02-18T00:00:00Z,Ø,Ikke oplyst,Seminaruddannelse,FALSE,NA,TRUE,25,88,0,0
@@ -27,7 +27,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 1062-line-gessoe-hansen,Line,Gessø,F,1974-10-24T00:00:00Z,Å,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,64,6,78
 1056-john-vind,John,Vind,M,1973-03-09T00:00:00Z,O,Udenfor arbejdsmarkedet,Ikke oplyst,FALSE,NA,TRUE,25,44,0,0
 382-troels-stru-schmidt,Troels Stru,Schmidt,M,1982-01-01T00:00:00Z,F,Offentligt ansat,Ph.d.-uddannelse,FALSE,NA,TRUE,25,20,25,365
-30-kasper-krebs,Kasper,Krebs,M,1992-02-12T00:00:00Z,Å,Ikke oplyst,Seminaruddannelse,FALSE,NA,TRUE,8,NA,0,0
+30-kasper-krebs,Kasper,Krebs,M,1992-02-12T00:00:00Z,Å,Ikke oplyst,Seminaruddannelse,FALSE,NA,TRUE,8,50,0,0
 214-christina-rittig-falkberg,Christina Rittig,Falkberg,F,1975-05-14T00:00:00Z,B,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,8,24,193
 592-jan-carlsen,Jan,Carlsen,M,1965-10-21T00:00:00Z,M,Leder,Gymnasial uddannelse,FALSE,NA,TRUE,25,60,24,102
 943-frits-simmelsgaard-kristensen,Frits Simmelsgaard,Kristensen,M,1961-09-15T00:00:00Z,K,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,44,0,0
@@ -43,7 +43,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 792-christian-rabjerg-madsen,Christian Rabjerg,Madsen,M,1986-03-24T00:00:00Z,A,Minister,Kandidat-/masteruddannelse,TRUE,7643,TRUE,25,32,15,300
 249-michael-flarup,Michael,Flarup,M,1982-03-31T00:00:00Z,B,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,48,2,50
 1044-elif-demir-gokce,Elif Demir,Gökce,F,1975-01-01T00:00:00Z,K,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,44,0,0
-737-lars-ole-skovgaard,Lars Ole Skovgaard,Larsen,M,1962-01-01T00:00:00Z,Æ,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,24,NA,9,149
+737-lars-ole-skovgaard,Lars Ole Skovgaard,Larsen,M,1962-01-01T00:00:00Z,Æ,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,24,42,9,149
 365-robert-moerck,Robert,Mørck,M,1981-11-24T00:00:00Z,I,Leder,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,52,5,75
 719-vivi-altenburg,Vivi,Altenburg,F,1962-03-15T00:00:00Z,Æ,Leder,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,52,25,229
 90-andreas-karlsen,Andreas,Karlsen,M,1996-01-01T00:00:00Z,C,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,72,21,255
@@ -79,7 +79,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 371-halime-oguz,Halime,Oguz,F,1970-06-15T00:00:00Z,F,Folketingsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,36,7,271
 12-jef-seistrup,Jef,Seistrup,M,1958-04-27T00:00:00Z,Å,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,88,15,117
 857-stine-rahbek-pedersen,Stine Rahbek,Pedersen,F,1977-08-16T00:00:00Z,Ø,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,8,11,176
-854-helge-bo-jensen,Helge Bo,Jensen,M,1959-07-23T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,NA,0,0
+854-helge-bo-jensen,Helge Bo,Jensen,M,1959-07-23T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,83,0,0
 858-oejvind-vilsholm,Øjvind,Vilsholm,M,1967-06-03T00:00:00Z,Ø,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,64,5,77
 999-helle-wium,Helle,Wium,F,1966-11-06T00:00:00Z,Å,Privat ansat/selvstændig,Ph.d.-uddannelse,FALSE,NA,TRUE,25,44,24,161
 632-daniel-aage-holm,Daniel Aage,Holm,M,1992-01-01T00:00:00Z,O,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
@@ -117,7 +117,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 1080-nilas-bay-foged,Nilas,Bay-Foged,M,1978-07-19T00:00:00Z,Å,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,68,23,201
 346-martin-sibast,Martin Sibast,Laugesen,M,1974-06-06T00:00:00Z,I,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,40,25,290
 486-rene-danielsson,Rene,Danielsson,M,1987-01-01T00:00:00Z,O,Offentligt ansat,Gymnasial uddannelse,FALSE,NA,TRUE,25,52,0,0
-998-qasam-nazir-ahmad,Qasam Nazir,Ahmad,M,1980-01-30T00:00:00Z,Å,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,NA,7,133
+998-qasam-nazir-ahmad,Qasam Nazir,Ahmad,M,1980-01-30T00:00:00Z,Å,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,83,7,133
 231-jes-vissing-tiedemann,Jes Vissing,Tiedemann,M,1983-02-25T00:00:00Z,B,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,48,22,348
 1030-janne-toft-lind,Janne,Toft-Lind,F,1971-09-01T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Gymnasial uddannelse,FALSE,NA,TRUE,25,96,13,296
 798-lasse-haugaard-pedersen,Lasse Haugaard,Pedersen,M,1995-06-02T00:00:00Z,A,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,8,21,180
@@ -165,7 +165,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 1102-charlotte-petersen,Charlotte,Petersen,F,1975-01-01T00:00:00Z,NA,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 268-tine-hessner,Tine,Hessner,F,1967-11-27T00:00:00Z,B,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,60,25,278
 1016-kristjar-skajaa,Kristjar,Skajaa,M,1954-01-10T00:00:00Z,Ø,Udenfor arbejdsmarkedet,Ph.d.-uddannelse,FALSE,NA,TRUE,25,80,10,80
-851-dorthe-hecht,Dorthe,Hecht,F,1949-01-01T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Seminaruddannelse,FALSE,NA,TRUE,13,NA,7,106
+851-dorthe-hecht,Dorthe,Hecht,F,1949-01-01T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Seminaruddannelse,FALSE,NA,TRUE,13,92,7,106
 127-dina-myrup-raabjerg,Dina Myrup,Raabjerg,F,1971-02-06T00:00:00Z,C,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,32,15,96
 417-morten-siig-henriksen,Morten Siig,Henriksen,M,1997-08-13T00:00:00Z,F,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,76,24,216
 905-sabrina-louise-christiansen,Sabrina Louise,Christiansen,F,1995-07-03T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,88,23,147
@@ -251,7 +251,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 56-helle-bonnesen,Helle,Bonnesen,F,1963-02-10T00:00:00Z,C,Privat ansat/selvstændig,Kandidat-/masteruddannelse,TRUE,2783,TRUE,25,28.000000000000004,15,107
 445-michael-nedersoee,Michael,Nedersøe,M,1978-10-22T00:00:00Z,O,Byråds- eller regionsrådsmedlem,10. klasse,FALSE,NA,TRUE,25,28.000000000000004,20,132
 536-jacob-panton,Jacob,Panton,M,1982-04-08T00:00:00Z,V,Byråds- eller regionsrådsmedlem,Erhvervsuddannelse,FALSE,NA,TRUE,25,64,5,91
-671-nishan-ganesh,Nishan,Ganesh,M,1987-01-01T00:00:00Z,Q,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,23,NA,5,47
+671-nishan-ganesh,Nishan,Ganesh,M,1987-01-01T00:00:00Z,Q,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,23,91,5,47
 668-esra-ocak,Esra,Ocak,F,1989-06-28T00:00:00Z,Q,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,88,21,116
 94-mona-juul,Mona,Juul,F,1967-09-20T00:00:00Z,C,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,3695,TRUE,25,40,25,245
 470-lars-damgaard,Lars,Damgaard,M,1968-10-03T00:00:00Z,O,Offentligt ansat,Erhvervsuddannelse,FALSE,NA,TRUE,25,60,2,175
@@ -298,7 +298,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 1070-helene-brix-petersen,Helene,Brix,F,1991-01-01T00:00:00Z,O,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 194-kim-edberg,Kim Edberg,Andersen,M,1973-06-21T00:00:00Z,D,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,TRUE,5218,TRUE,25,64,25,373
 861-emil-ulrik-andersen,Emil Ulrik,Andersen,M,1987-01-20T00:00:00Z,Ø,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,28.000000000000004,15,236
-77-diana-ester-brandt-eriksen,Diana-Ester Brandt,Eriksen,F,1997-10-25T00:00:00Z,C,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,NA,8,144
+77-diana-ester-brandt-eriksen,Diana-Ester Brandt,Eriksen,F,1997-10-25T00:00:00Z,C,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,42,8,144
 1095-ulla-sandbaek,Ulla,Sandbæk,F,1943-01-01T00:00:00Z,Å,Udenfor arbejdsmarkedet,Ph.d.-uddannelse,FALSE,NA,TRUE,25,68,25,90
 685-jeanne-rygas-bergmansen,Jeanne Rygas,Bergmansen,F,1989-05-01T00:00:00Z,F,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,44,17,142
 1135-thomas-vesth,Thomas,Vesth,M,1964-01-01T00:00:00Z,I,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
@@ -313,7 +313,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 266-susan-kronborg,Susan,Kronborg,F,1968-07-05T00:00:00Z,B,Folketingsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,12,25,231
 986-aqeel-akhtar,Aqeel,Akhtar,M,1991-09-19T00:00:00Z,Q,Privat ansat/selvstændig,Gymnasial uddannelse,FALSE,NA,TRUE,25,76,23,134
 514-kim-valentin,Kim,Valentin,M,1963-03-19T00:00:00Z,V,Folketingsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,32,3,82
-391-anne-valentina-berthelsen,Anne Valentina,Berthelsen,F,1994-09-16T00:00:00Z,F,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,1383,TRUE,24,NA,23,222
+391-anne-valentina-berthelsen,Anne Valentina,Berthelsen,F,1994-09-16T00:00:00Z,F,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,1383,TRUE,24,57.99999999999999,23,222
 1047-karen-margrethe-lysholm,Karen-Margrethe,Lysholm,F,1972-03-27T00:00:00Z,K,Offentligt ansat,Seminaruddannelse,FALSE,NA,TRUE,25,28.000000000000004,14,127
 848-emil-samaras,Emil,Samaras,M,1998-03-14T00:00:00Z,Ø,Udenfor arbejdsmarkedet,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,32,24,185
 987-sazan-garmiyani,Sazan,Garmiyani,F,1993-07-19T00:00:00Z,Q,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,72,0,0
@@ -341,7 +341,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 970-mette-kierkegaard,Mette,Kierkgaard,F,1972-03-05T00:00:00Z,M,Offentligt ansat,Ph.d.-uddannelse,TRUE,2935,TRUE,25,32,4,256
 220-emilie-normann,Emilie,Normann,M,1969-10-10T00:00:00Z,B,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,48,7,163
 864-morten-riis,Morten,Riis,M,1976-11-27T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Erhvervsuddannelse,FALSE,NA,TRUE,25,88,0,0
-599-kim-rasmussen,Kim,Rasmussen,M,1961-05-25T00:00:00Z,M,Leder,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,20,NA,9,81
+599-kim-rasmussen,Kim,Rasmussen,M,1961-05-25T00:00:00Z,M,Leder,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,20,50,9,81
 173-jonas-rene-jensen,Jonas René,Jensen,M,1981-01-14T00:00:00Z,D,Byråds- eller regionsrådsmedlem,10. klasse,FALSE,NA,TRUE,25,68,25,359
 348-per-noergaard-andersen,Per Nørgaard,Andersen,M,1964-01-01T00:00:00Z,I,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,52,0,0
 409-gunner-kjerulf-poulsen,Gunner,Poulsen,M,1965-01-19T00:00:00Z,F,Offentligt ansat,Seminaruddannelse,FALSE,NA,TRUE,25,56.00000000000001,22,189
@@ -416,14 +416,14 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 839-martin-bech,Martin,Bech,M,1990-07-27T00:00:00Z,I,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,64,25,196
 490-peter-juel-jensen,Peter,Juel-Jensen,M,1966-05-18T00:00:00Z,V,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,3849,TRUE,25,16,25,347
 109-mette-jensen,Mette,Jensen,F,1968-01-25T00:00:00Z,C,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,68,25,156
-1028-per-olsen,Per,Olsen,M,1975-01-23T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,24,NA,24,378
+1028-per-olsen,Per,Olsen,M,1975-01-23T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,24,67,24,378
 602-lars-loekke-rasmussen,Lars Løkke,Rasmussen,M,1964-01-01T00:00:00Z,M,Ikke oplyst,Ikke oplyst,TRUE,38439,FALSE,0,NA,0,0
 931-ester-esmarch,Ester,Esmarch,F,1974-12-31T00:00:00Z,K,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,28.000000000000004,15,174
 48-nicklas-hakmann-petersen,Nicklas,Hakmann,M,1997-03-16T00:00:00Z,Å,Ordfører for et parti,Seminaruddannelse,FALSE,NA,TRUE,25,68,23,117
 1089-rene-bredal,René,Bredal,M,1961-06-03T00:00:00Z,V,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,32,2,173
 110-mia-tang,Mia,Tang,F,1972-03-14T00:00:00Z,C,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,68,23,180
 901-mathias-christiansen,Mathias,Christiansen,M,1980-01-01T00:00:00Z,Ø,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,68,25,118
-1069-erling-praestekjaer,Erling,Præstekjær,M,1967-12-08T00:00:00Z,O,Privat ansat/selvstændig,Grundskole,FALSE,NA,TRUE,23,NA,1,60
+1069-erling-praestekjaer,Erling,Præstekjær,M,1967-12-08T00:00:00Z,O,Privat ansat/selvstændig,Grundskole,FALSE,NA,TRUE,23,48,1,60
 462-rene-christensen,René,Christensen,M,1970-10-31T00:00:00Z,O,Folketingsmedlem,Erhvervsuddannelse,FALSE,NA,TRUE,25,8,4,112
 79-claus-dyremose,Claus,Dyremose,M,1970-04-26T00:00:00Z,C,Byråds- eller regionsrådsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,68,24,148
 648-nana-harring,Nana,Harring,F,1998-05-30T00:00:00Z,O,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,36,23,104
@@ -578,7 +578,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 53-thomas-anker-kofoed,Thomas Holbech,Anker,M,1975-04-11T00:00:00Z,Å,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,44,25,335
 177-hans-christian-gjerlevsen,Hans-Christian,Gjerlevsen,M,1987-03-28T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,68,25,360
 361-kim-bjoernstrup,Kim,Bjørnstrup,M,1958-01-01T00:00:00Z,I,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,84,23,119
-1041-maria-av-skardi,Maria Av,Skardi,F,1977-11-24T00:00:00Z,K,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,23,NA,12,172
+1041-maria-av-skardi,Maria Av,Skardi,F,1977-11-24T00:00:00Z,K,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,23,52,12,172
 293-lars-christian-brask,Lars-Christian,Brask,M,1963-05-25T00:00:00Z,I,Leder,Erhvervsuddannelse,TRUE,3442,TRUE,25,68,25,264
 149-christian-lorenzen,Christian,Lorenzen,M,1978-01-01T00:00:00Z,C,Privat ansat/selvstændig,Seminaruddannelse,FALSE,NA,TRUE,25,16,25,331
 557-carsten-kissmeyer,Carsten,Kissmeyer,M,1953-05-22T00:00:00Z,V,Folketingsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,12,23,164
@@ -614,7 +614,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 525-torsten-schack-pedersen,Torsten Schack,Pedersen,M,1976-06-26T00:00:00Z,V,Ikke oplyst,Ikke oplyst,TRUE,5248,TRUE,25,56.00000000000001,19,139
 1134-theresa-scavenius,Theresa,Scavenius,F,1984-01-01T00:00:00Z,Å,Ikke oplyst,Ikke oplyst,TRUE,1081,FALSE,0,NA,0,0
 879-peter-sig-kristensen,Peter Sig,Kristensen,M,1973-03-10T00:00:00Z,Ø,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,68,0,0
-768-jens-jonatan-steen,Jens Jonatan,Steen,M,1981-09-24T00:00:00Z,A,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,NA,0,0
+768-jens-jonatan-steen,Jens Jonatan,Steen,M,1981-09-24T00:00:00Z,A,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,46,0,0
 776-thyge-risvig,Thyge,Risvig,M,1945-01-01T00:00:00Z,A,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 940-per-poulsen-asp,Per Poulsen,Asp,M,1953-01-01T00:00:00Z,K,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 353-bo-ritterbusch,Bo,Ritterbusch,M,1969-02-24T00:00:00Z,I,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,40,11,88
@@ -632,14 +632,14 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 770-rasmus-stoklund,Rasmus,Stoklund,M,1984-03-17T00:00:00Z,A,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,4647,TRUE,25,24,0,0
 412-nanna-bonde,Nanna,Bonde,F,1993-05-18T00:00:00Z,F,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,76,25,249
 494-erling-bonnesen,Erling,Bonnesen,M,1955-03-28T00:00:00Z,V,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,6489,TRUE,25,20,25,287
-1035-michael-monberg,Michael,Monberg,M,1978-05-17T00:00:00Z,Å,Ordfører for et parti,Grundskole,FALSE,NA,TRUE,24,NA,12,85
+1035-michael-monberg,Michael,Monberg,M,1978-05-17T00:00:00Z,Å,Ordfører for et parti,Grundskole,FALSE,NA,TRUE,24,75,12,85
 405-lise-muller,Lise,Müller,F,1974-01-21T00:00:00Z,F,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,60,24,151
 1003-sarah-roued-thomsen,Sarah Roued,Thomsen,F,1981-01-01T00:00:00Z,Å,Privat ansat/selvstændig,Seminaruddannelse,FALSE,NA,TRUE,25,68,0,0
 784-annette-lind,Annette,Lind,F,1969-06-02T00:00:00Z,A,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,9797,TRUE,25,16,0,0
 304-carl-andersen,Carl,Andersen,M,1995-01-27T00:00:00Z,I,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,68,25,122
 74-egil-fabritius-hulgaard,Egil Fabritius,Hulgaard,M,1962-03-30T00:00:00Z,C,Privat ansat/selvstændig,Ph.d.-uddannelse,FALSE,NA,TRUE,25,20,25,207
 515-lennart-hartmann-nielsen,Lennart Hartmann,Nielsen,M,1963-02-25T00:00:00Z,V,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,40,23,105
-453-kenneth-fredslund-petersen,Kenneth Fredslund,Petersen,M,1965-03-24T00:00:00Z,Æ,Privat ansat/selvstændig,10. klasse,TRUE,782,TRUE,3,NA,3,198
+453-kenneth-fredslund-petersen,Kenneth Fredslund,Petersen,M,1965-03-24T00:00:00Z,Æ,Privat ansat/selvstændig,10. klasse,TRUE,782,TRUE,3,33,3,198
 332-silke-anna-hein,Silke Anna,Hein,F,2000-08-12T00:00:00Z,I,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,44,0,0
 316-kennet-kolby,Kennet,Kolby,M,1976-03-30T00:00:00Z,I,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,76,4,108
 537-ken-kristensen,Ken,Kristensen,M,1972-10-07T00:00:00Z,V,Offentligt ansat,Gymnasial uddannelse,FALSE,NA,TRUE,25,24,20,184
@@ -650,7 +650,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 953-henrik-engelbrekt-refshauge,Henrik Engelbrekt,Refshauge,M,1970-11-29T00:00:00Z,K,Leder,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,60,16,101
 891-miralem-garagic,Miralem,Garagic,M,1980-01-01T00:00:00Z,Ø,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 977-morten-vehl,Morten,Vehl,M,1974-04-01T00:00:00Z,Æ,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,48,25,200
-774-thorkild-holmboe-hay,Thorkild,Holmboe-Hay,M,1965-01-14T00:00:00Z,A,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,1,NA,0,0
+774-thorkild-holmboe-hay,Thorkild,Holmboe-Hay,M,1965-01-14T00:00:00Z,A,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,1,0,0,0
 710-keld-marstrand-wang,Keld Marstrand,Wang,M,1980-07-16T00:00:00Z,B,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,44,12,139
 133-michael-norup,Michael,Norup,M,1970-11-22T00:00:00Z,C,Privat ansat/selvstændig,Gymnasial uddannelse,FALSE,NA,TRUE,25,48,1,45
 396-jacob-mark,Jacob,Mark,M,1991-10-16T00:00:00Z,F,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,31235,TRUE,25,48,25,254
@@ -713,7 +713,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 755-lone-larsen,Lone,Larsen,F,1953-10-21T00:00:00Z,A,Udenfor arbejdsmarkedet,Erhvervsuddannelse,FALSE,NA,TRUE,25,36,21,105
 859-thue-lundgaard,Thue,Lundgaard,M,1973-01-01T00:00:00Z,Ø,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,80,3,54
 172-malte-jager,Malte,Jäger,M,2002-07-28T00:00:00Z,D,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,76,1,25
-945-michelle-west,Michelle,West,F,1990-02-22T00:00:00Z,K,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,NA,23,306
+945-michelle-west,Michelle,West,F,1990-02-22T00:00:00Z,K,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,71,23,306
 219-edris-qasimi,Edris,Qasimi,M,1987-12-04T00:00:00Z,B,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,56.00000000000001,0,0
 749-anna-thusgaard,Anna,Thusgård,F,1996-09-23T00:00:00Z,A,Studerende,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,44,25,200
 246-martin-lidegaard,Martin,Lidegaard,M,1966-12-12T00:00:00Z,B,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,7167,TRUE,25,24,25,275
@@ -732,7 +732,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 665-rishigeshan-balachandran,Rishi,Balachandran,M,1991-08-08T00:00:00Z,Q,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,76,13,123
 499-anders-fausboell,Anders,Fausbøll,M,1976-11-19T00:00:00Z,V,Privat ansat/selvstændig,Ph.d.-uddannelse,FALSE,NA,TRUE,25,8,25,309
 330-katrine-daugaard,Katrine,Daugaard,F,1981-10-01T00:00:00Z,I,Privat ansat/selvstændig,Kandidat-/masteruddannelse,TRUE,2861,TRUE,25,56.00000000000001,24,281
-331-anders-kirkeby,Anders,Kirkeby,M,1991-06-08T00:00:00Z,I,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,23,NA,0,0
+331-anders-kirkeby,Anders,Kirkeby,M,1991-06-08T00:00:00Z,I,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,23,26,0,0
 380-rasmus-peter-henriksen,Rasmus,Henriksen,M,1984-07-30T00:00:00Z,F,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,52,2,54
 791-bjoern-laursen,Bjørn,Laursen,M,1961-09-22T00:00:00Z,A,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,28.000000000000004,15,60
 1023-clara-rebecca-svarc,Clara Rebecca,Svarc,F,1991-06-29T00:00:00Z,Q,Folketingsmedlem,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,76,13,220
@@ -788,11 +788,11 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 333-christoffer-overgaard-munk,Christoffer Overgaard,Munk,M,1994-02-20T00:00:00Z,I,Privat ansat/selvstændig,Ikke oplyst,FALSE,NA,TRUE,25,64,3,70
 640-lasse-holmqvist,Lasse,Holmqvist,M,1983-01-01T00:00:00Z,O,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 232-johan-broedsgaard,Johan,Brødsgaard,M,1993-09-22T00:00:00Z,B,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,32,0,0
-814-anne-paulin,Anne,Paulin,F,1988-01-05T00:00:00Z,A,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,6905,TRUE,24,NA,10,170
+814-anne-paulin,Anne,Paulin,F,1988-01-05T00:00:00Z,A,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,6905,TRUE,24,28.999999999999996,10,170
 213-christian-holm-donatzky,Christian Holm,Donatzky,M,1973-05-20T00:00:00Z,B,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,64,2,119
 926-nanna-bock,Nanna,Bock,F,1950-01-01T00:00:00Z,K,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,44,6,94
 367-josephine-svane,Josephine,Svane,F,2003-01-01T00:00:00Z,I,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,56.00000000000001,11,93
-980-helle-jensen,Helle,Jensen,F,1978-04-11T00:00:00Z,I,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,NA,5,118
+980-helle-jensen,Helle,Jensen,F,1978-04-11T00:00:00Z,I,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,54,5,118
 651-signe-vedersoe-keldorff,Signe Vedersø,Keldorff,F,2002-03-18T00:00:00Z,O,Privat ansat/selvstændig,Gymnasial uddannelse,FALSE,NA,TRUE,25,88,0,0
 370-carl-valentin-lehrmann,Carl,Valentin,M,1992-03-11T00:00:00Z,F,Folketingsmedlem,Bachelor-/diplomuddannelse,TRUE,2631,TRUE,25,88,24,340
 895-victoria-boegh-salo,Victoria Bøgh,Salo,F,1988-09-19T00:00:00Z,Ø,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,92,20,245
@@ -835,7 +835,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 769-bjarne-laustsen,Bjarne,Laustsen,M,1953-12-09T00:00:00Z,A,Folketingsmedlem,Erhvervsuddannelse,TRUE,7601,TRUE,25,24,3,90
 925-hanna-maria-smed-molte-lyng,Hanna-Maria Smed Molte,Lyng,F,2000-05-10T00:00:00Z,K,Udenfor arbejdsmarkedet,Gymnasial uddannelse,FALSE,NA,TRUE,25,40,2,138
 1104-flemming-blicher,Flemming,Blicher,M,1968-01-01T00:00:00Z,NA,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
-1053-mariane-lunden-jacobsen,Mariane,Lunden,F,1963-01-02T00:00:00Z,Å,Ikke oplyst,Erhvervsuddannelse,FALSE,NA,TRUE,24,NA,24,253
+1053-mariane-lunden-jacobsen,Mariane,Lunden,F,1963-01-02T00:00:00Z,Å,Ikke oplyst,Erhvervsuddannelse,FALSE,NA,TRUE,24,71,24,253
 771-sebastian-schwartz,Sebastian,Schwartz,M,2000-07-30T00:00:00Z,A,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,28.000000000000004,23,333
 1107-hans-rytter,Hans,Rytter,M,1962-01-01T00:00:00Z,D,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 489-julie-pauch-nymark,Julie Pauch,Nymark,F,1995-07-29T00:00:00Z,V,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,44,7,221
@@ -847,7 +847,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 52-jesper-callesen,Jesper,Callesen,M,1960-01-21T00:00:00Z,Å,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,72,25,363
 898-johanna-maria-precht,Johanna-Maria,Precht,F,1963-12-29T00:00:00Z,Ø,Offentligt ansat,Seminaruddannelse,FALSE,NA,TRUE,25,68,12,259
 477-kim-malmberg-hansen,Kim Malmberg,Hansen,M,1960-12-24T00:00:00Z,O,Offentligt ansat,Erhvervsuddannelse,FALSE,NA,TRUE,25,44,16,102
-472-paw-karslund,Paw,Karslund,M,1973-03-11T00:00:00Z,O,Offentligt ansat,Erhvervsuddannelse,FALSE,NA,TRUE,24,NA,8,130
+472-paw-karslund,Paw,Karslund,M,1973-03-11T00:00:00Z,O,Offentligt ansat,Erhvervsuddannelse,FALSE,NA,TRUE,24,46,8,130
 160-carsten-winther,Carsten,Winther,M,1970-07-03T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,76,25,357
 948-jesper-housgaard-petersen,Jesper,Housgaard,M,1982-10-16T00:00:00Z,K,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,52,13,230
 740-claus-gisselmann,Claus,Gisselmann,M,1967-01-20T00:00:00Z,Æ,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,68,4,106
@@ -864,12 +864,12 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 8-nikoline-erbs-hillers-bendtsen,Nikoline Erbs,Hillers-Bendtsen,F,2001-04-23T00:00:00Z,Å,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,56.00000000000001,23,261
 140-rasmus-elkjaer-larsen,Rasmus Elkjær,Larsen,M,1971-05-21T00:00:00Z,C,Byråds- eller regionsrådsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,16,25,315
 154-niels-peder-ravn,Niels Peder,Ravn,M,1967-06-18T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,76,25,318
-958-michael-mikkelsen,Michael,Mikkelsen,M,1972-08-05T00:00:00Z,Æ,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,24,NA,0,0
+958-michael-mikkelsen,Michael,Mikkelsen,M,1972-08-05T00:00:00Z,Æ,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,24,0,0,0
 904-benny-dall,Benny,Dall,M,1956-02-19T00:00:00Z,Ø,Privat ansat/selvstændig,Gymnasial uddannelse,FALSE,NA,TRUE,25,64,12,150
 804-iben-soenderup,Iben,Sønderup,F,1969-05-13T00:00:00Z,A,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,32,2,162
 187-mogens-aaby,Mogens,Aaby,M,1965-07-10T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,64,25,368
 1083-joern-bjorholm,Jørn,Bjorholm,M,1955-01-01T00:00:00Z,Å,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
-817-maria-gudme,Maria,Gudme,F,1989-03-14T00:00:00Z,A,Folketingsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,NA,24,255
+817-maria-gudme,Maria,Gudme,F,1989-03-14T00:00:00Z,A,Folketingsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,24,28.999999999999996,24,255
 83-regitze-harslund-sancoeur,Regitze Harslund,Sancoeur,F,1998-12-17T00:00:00Z,C,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,36,22,177
 1071-john-bo-hansen,John Bo,Hansen,M,1957-01-01T00:00:00Z,O,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 1039-simon-lavdal-pedersen,Simon,Lavdal,M,1992-12-20T00:00:00Z,K,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,60,0,0
@@ -886,12 +886,12 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 1055-sofie-groth,Sofie,Groth,F,1990-12-17T00:00:00Z,Å,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,32,19,280
 758-lars-werge,Lars,Werge,M,1966-08-29T00:00:00Z,A,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,28.000000000000004,11,183
 656-rajesh-holmen,Rajesh,Holmen,M,1988-08-17T00:00:00Z,Q,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,92,23,301
-186-inger-marie-tryde,Inger-Marie,Tryde,F,1973-09-11T00:00:00Z,D,Byråds- eller regionsrådsmedlem,Grundskole,FALSE,NA,TRUE,23,NA,12,99
+186-inger-marie-tryde,Inger-Marie,Tryde,F,1973-09-11T00:00:00Z,D,Byråds- eller regionsrådsmedlem,Grundskole,FALSE,NA,TRUE,23,87,12,99
 919-henning-oestergaard-christensen,Henning,Østergaard,M,1949-01-11T00:00:00Z,K,Udenfor arbejdsmarkedet,Erhvervsuddannelse,FALSE,NA,TRUE,25,76,0,0
 1018-elena-ryan,Elena,Ryan,F,1995-01-01T00:00:00Z,Q,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 1060-jenny-andresen,Jenny,Andresen,F,1982-11-15T00:00:00Z,Æ,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,52,22,171
 582-carina-bloch-simonsen,Carina Bloch,Simonsen,F,1973-05-13T00:00:00Z,M,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,32,21,208
-795-dan-joergensen,Dan,Jørgensen,M,1975-06-06T00:00:00Z,A,Minister,Kandidat-/masteruddannelse,TRUE,8256,TRUE,20,NA,0,0
+795-dan-joergensen,Dan,Jørgensen,M,1975-06-06T00:00:00Z,A,Minister,Kandidat-/masteruddannelse,TRUE,8256,TRUE,20,40,0,0
 624-stine-maureen-rosenquist,Stine Maureen,Rosenquist,F,1971-04-21T00:00:00Z,M,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,56.00000000000001,25,190
 667-susanne-zimmer,Susanne,Zimmer,F,1960-01-01T00:00:00Z,Q,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,84,25,191
 1024-jasmin-kaur,Jasmin,Kaur,F,2001-08-15T00:00:00Z,Q,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,92,2,104
@@ -923,7 +923,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 285-ibrahim-benli,Ibrahim,Benli,M,1979-06-06T00:00:00Z,Ø,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,88,23,264
 806-jeppe-kofod,Jeppe,Kofod,M,1974-03-15T00:00:00Z,A,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,32,0,0
 799-mads-madsen-henriksen,Mads Madsen,Henriksen,M,1989-10-03T00:00:00Z,A,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,28.000000000000004,24,133
-549-kasper-b-mundt,Kasper B.,Mundt,M,1994-05-12T00:00:00Z,V,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,21,NA,21,212
+549-kasper-b-mundt,Kasper B.,Mundt,M,1994-05-12T00:00:00Z,V,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,21,62,21,212
 989-thomas-kristoffersen,Thomas,Kristoffersen,M,1996-01-01T00:00:00Z,V,Ikke oplyst,Ikke oplyst,FALSE,NA,FALSE,0,NA,0,0
 894-camilla-dalum-jensen,Camilla Dalum,Jensen,F,2001-08-15T00:00:00Z,Ø,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,88,2,49
 521-marie-bjerre,Marie,Bjerre,F,1986-05-06T00:00:00Z,V,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,9744,TRUE,25,20,25,289
@@ -943,7 +943,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 884-runa-friis-hansen,Runa Friis,Hansen,F,1984-08-27T00:00:00Z,Ø,Byråds- eller regionsrådsmedlem,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,72,0,0
 471-kim-errebo,Kim,Errebo,M,1975-01-29T00:00:00Z,O,Offentligt ansat,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,44,0,0
 957-christian-wibholm,Christian,Wibholm,M,1967-10-23T00:00:00Z,Æ,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,44,25,125
-826-barbara-krarup-hansen,Barbara Krarup,Hansen,F,1974-01-01T00:00:00Z,A,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,1,NA,0,0
+826-barbara-krarup-hansen,Barbara Krarup,Hansen,F,1974-01-01T00:00:00Z,A,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,1,100,0,0
 856-stefan-rundstroem,Stefan,Rundstrøm,M,1999-04-27T00:00:00Z,Ø,Studerende,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,32,25,268
 347-joanne-bywater,Joanne,Bywater,F,1980-06-06T00:00:00Z,I,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,60,4,80
 1066-jacob-stryhn,Jacob,Stryhn,M,1970-10-03T00:00:00Z,C,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,16,1,67
@@ -967,7 +967,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 932-palle-rosenkilde,Palle,Rosenkilde,M,1966-04-26T00:00:00Z,K,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,48,25,210
 586-ellen-mindegaard-mullertz,Ellen,Emilie,F,2001-11-09T00:00:00Z,M,Leder,Gymnasial uddannelse,FALSE,NA,TRUE,25,40,1,107
 279-soeren-egge,Søren Egge,Rasmussen,M,1961-07-02T00:00:00Z,Ø,Folketingsmedlem,Erhvervsuddannelse,TRUE,264,TRUE,25,68,9,79
-340-joergen-juhl,Jørgen,Juhl,M,1966-01-01T00:00:00Z,I,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,NA,24,184
+340-joergen-juhl,Jørgen,Juhl,M,1966-01-01T00:00:00Z,I,Offentligt ansat,Kandidat-/masteruddannelse,FALSE,NA,TRUE,24,62,24,184
 583-carsten-damgaard,Carsten Damgaard,Møller,M,1970-09-18T00:00:00Z,M,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,32,4,47
 1043-niclas-aarestrup,Niclas,Aarestrup,M,1973-01-01T00:00:00Z,K,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,56.00000000000001,24,310
 184-allan-berg,Allan,Berg,M,1970-03-22T00:00:00Z,D,Privat ansat/selvstændig,Erhvervsuddannelse,FALSE,NA,TRUE,25,64,25,371
@@ -983,7 +983,7 @@ ID,first_name,last_name,gender,birth,party,profession,education,elected,votes,pa
 283-christine-lundgaard,Christine,Lundgaard,F,1974-05-16T00:00:00Z,Ø,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,84,7,254
 801-trine-bramsen,Trine,Bramsen,F,1981-03-26T00:00:00Z,A,Minister,Kandidat-/masteruddannelse,TRUE,6456,TRUE,25,20,1,156
 7-torsten-gejl,Torsten,Gejl,M,1964-01-30T00:00:00Z,Å,Folketingsmedlem,Gymnasial uddannelse,TRUE,3444,TRUE,25,92,16,136
-119-mai-mercado,Mai,Mercado,F,1980-08-20T00:00:00Z,C,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,4426,TRUE,24,NA,24,214
+119-mai-mercado,Mai,Mercado,F,1980-08-20T00:00:00Z,C,Folketingsmedlem,Kandidat-/masteruddannelse,TRUE,4426,TRUE,24,79,24,214
 181-rune-boennelykke,Rune,Bønnelykke,M,1972-07-19T00:00:00Z,D,Privat ansat/selvstændig,Bachelor-/diplomuddannelse,FALSE,NA,TRUE,25,68,25,380
 1094-henrik-raeder-clausen,Henrik Ræder,Clausen,M,1963-09-21T00:00:00Z,D,Ikke oplyst,Ikke oplyst,FALSE,NA,TRUE,25,64,25,362
 991-louise-lingren-louring,Louise,Louring,F,1992-05-23T00:00:00Z,V,Privat ansat/selvstændig,Kandidat-/masteruddannelse,FALSE,NA,TRUE,25,16,9,263

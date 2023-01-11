@@ -37,6 +37,9 @@ party_cols <- c("#25772b", "#dd6b16", "#d76698", "#5f206d", "#69171a", "#a475c8"
 
 # counting how many candidates participated
 df %>% group_by(participated) %>% summarise(n = n())
+
+# counting how many elected candidates participated
+df %>% filter(elected == T) %>% group_by(participated) %>% summarise(n = n())
 ```
 
 # Investigating the candidates
@@ -102,9 +105,16 @@ ggsave("plots/candidate_convitction.pdf", width=4, height=3, dpi=200)
 ```
 ### is this difference significant?
 ```{r}
-elected <- df %>% filter(elected == T)
-not_elected <- df %>% filter(elected == F)
+elected <- df %>% filter(elected == T & participated == T)
+not_elected <- df %>% filter(elected == F & participated == T)
 t.test(elected$conviction, not_elected$conviction)
+
+# find data on distributions
+mean(elected$conviction)
+sd(elected$conviction)
+
+mean(not_elected$conviction)
+sd(not_elected$conviction)
 ```
 > It is significant :)
 
@@ -133,7 +143,7 @@ ggsave("plots/note_hist.pdf", width=8, height=5, dpi=200)
 df %>% 
   filter( party != "Q" & party != "K") %>% 
   ggplot(aes(x = conviction, y = party, fill = party)) +
-  geom_density_ridges(scale = 3, alpha = 0.8, rel_min_height = 0.01) +
+  geom_density_ridges(scale = 3, alpha = 0.8, rel_min_height = 0.045) +
   theme_bw() +
   ggtitle("Density plot of parties conviction") +
   labs(x = "Conviction %",
