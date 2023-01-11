@@ -92,7 +92,7 @@ df %>%
   ggplot(aes(x = conviction, fill = elected)) +
   geom_density(alpha = 0.5) +
   theme_bw() +
-  ggtitle("Density plot of candidates conviction") +
+  ggtitle("Density plot of candidates' conviction") +
   labs(x = "Conviction %",
        y = NULL,
        fill = 'Elected') +
@@ -139,13 +139,13 @@ ggsave("plots/note_hist.pdf", width=8, height=5, dpi=200)
 
 # Do candidates within a party have smiliar levels of conviction?
 
-```{r}
+```{r fig.width = 5, fig.height = 8}
 df %>% 
   filter( party != "Q" & party != "K") %>% 
   ggplot(aes(x = conviction, y = party, fill = party)) +
   geom_density_ridges(scale = 3, alpha = 0.8, rel_min_height = 0.045) +
   theme_bw() +
-  ggtitle("Density plot of parties conviction") +
+  ggtitle("Density plot of parties' conviction") +
   labs(x = "Conviction %",
        y=NULL,
        fill = 'Party') +
@@ -183,7 +183,7 @@ df %>%
   ggplot(aes(y = avg_note_len, x = no_notes, color = elected, size = elected)) +
   geom_point()+
   theme_bw() +
-  ggtitle("Candidates notes and their election status") +
+  ggtitle("Candidates' notes and their election status") +
   labs(y = "Average characters in notes",
        x = "Number of notes",
        size = 'Elected',
